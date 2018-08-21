@@ -1,0 +1,509 @@
+* {
+    box-sizing: border-box;
+}
+                                      /*this .......... nav*/
+nav{
+    width: 100%;
+    height: 35px;
+    background-color: #000;
+    
+}
+nav a{
+    color: #fff;
+    margin-left: 12px;
+    
+}
+nav a i{
+    margin-top: 10px;
+}
+a:hover{
+    color: #f3ddae;
+    
+}
+                                /*end..........nav*/
+.adr h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 35px;
+    font-family: "Lobster", serif;
+
+}
+p{
+    text-align: center;
+    font-size: 34px;
+     font-family: "Tangerine", serif;
+     font-weight: bold;
+}
+p span{
+    color: #f3ddae;
+    background-color: #735c5c;
+   
+}
+                             /*this.......header*/
+header{
+    width: 100%;
+    height: 700px;
+    background: url("../imeg/qw.jpg");
+     position: relative;
+}
+.mg{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(21, 17, 17, 0.52);
+    position: absolute;
+    color: #FFF;
+}
+.mg h2{
+    margin-left: 20px;
+    margin-top: 290px;
+    font-size: 30px;
+    font-family: "Lobster", serif;
+    font-weight: bold;
+}
+.mg h2 .zz{
+    font-size: 45px;
+    color: #f9d775;
+    
+}
+.mg .sf{
+    font-size: 80px;
+     margin-left: 20px;
+    
+    font-weight: bold;
+}
+                                           /*end ........header*/
+                                            /*this........section*/
+section{
+    width: 100%;
+    background-color: #e4dcc0;
+    height: 1930px;
+    border: 20px  solid #e4dcc0;
+    
+}
+.contanr{
+    width: 97%;
+    height: 1900px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 5px;
+}
+.justify{
+    width: 65%;
+    height: 950px;
+    background-color: #fff;
+     text-align: center;
+     float: left;
+     border-right:  9px solid #e4dcc0;
+      border-left:  9px solid #e4dcc0;
+     border-bottom:  9px solid #e4dcc0;
+    
+     
+}
+.justify p{
+    font-size: 25px;
+     font-weight: bold;
+}
+.justify h2{
+     font-weight: bold;
+     font-family: "Lobster", serif;
+}
+.mn{
+    width: 100%;
+    height: 430px;
+    background-color: #fff;
+}
+.mn img{
+    width: 95%;
+    height: 430px;
+    
+}
+.justify p{
+      font-family: "Times New Roman", Times, serif;
+     font-size: 16px;
+     font-weight: bold;
+}
+.like{
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-right: 560px;
+    height: 38px;
+    width: 77px;
+    color: #000;
+    
+    
+}
+.like:hover{
+    background-color: #ddd;
+    font-size: 20px;
+}
+button{
+    background-color: #000;
+    height: 37px;
+    width: 150px;
+    color: #fff;
+    font-size: 20px;
+     overflow: hidden;
+    
+}
+button:hover{
+    background-color: #ddd;
+   color: #170808;
+   font-weight: bold;
+  font-size: 20px;
+}
+hr{
+    
+    width:100%;
+   
+}
+.jon{
+ overflow: hidden;
+}
+.jon img{
+  width: 90px;
+  height: 110px;
+  float: left;
+  margin: 0px 15px;
+   
+}
+.jon h5{
+  text-align: left;
+  margin-top: 40px;
+  
+  color: #4a4949;
+  
+}
+.jon h5 span {
+  font-size: 25px;
+  font-weight: bold;
+  color:#000;
+}
+.jon p{
+  text-align: left;
+}
+.za{
+    width: 35%;
+    
+    height: 350px;
+    
+    border: 9px solid #e4dcc0;
+    position: relative;
+  background: url("../imeg/cv.jpg");
+  overflow: hidden;
+
+}
+.az{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.92);
+    width: 100%;
+    margin-top: 190px;
+    height: 142px;
+    color: #fff;
+     overflow: hidden;
+}
+.az h6{
+    margin-left: 5px;
+    font-size: 18px;
+}
+.posts{
+  width: 35%;
+   height: 480px;
+   
+    border: 9px solid #e4dcc0;
+    background-color: red;
+     overflow: hidden;
+}
+.posts .pots{
+  width: 100%;
+  height: 65px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+   overflow: hidden;
+}
+.posts .pots h4{
+  font-size: 25px;
+  font-weight: bold;
+ font-family: "Times New Roman", Times, serif;
+  
+}
+.posts .item {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  
+}
+.posts .item img{
+  width:70px;
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.posts .item p{
+  margin-top: -42px;
+  margin-right: 45px;
+  margin-bottom: 0;
+}
+.posts .item hr{
+  margin-top: 0px;
+  
+}
+.item:hover{
+  background-color: #ddd;
+}
+.Advertise{
+  width: 35%;
+   height: 340px;
+    float: right;
+    background-color: #FFF;
+    border: 9px solid #e4dcc0;
+    position: relative;
+}
+.Advertise .avd{
+  width: 100%;
+  height: 65px;
+  background-color: #000;
+  padding-top: 10px;
+  color: #fff;
+  
+  
+}
+.Advertise .avd h3{
+  margin-left: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.Advertise .ert{
+  width: 90%;
+  background-color: #f5eeee;
+  height: 220px;
+  margin-top: 18px;
+  margin-left: 18px;
+  position: absolute;
+  
+}
+.Advertise .ert p{
+  margin-top: 80px;
+}
+.TITLE{
+  
+   width: 65%;
+    height: 965px;
+    background-color: #fff;
+     text-align: center;
+      border: 9px solid #e4dcc0;
+    
+    overflow: hidden;
+     float: left;
+     
+}
+.TITLE h2{
+   font-weight: bold;
+     font-family: "Lobster", serif;
+}
+.TITLE p{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.TITLE .Hats{
+   width: 100%;
+    height: 360px;
+ 
+ overflow: hidden
+}
+ img{
+  width: 95%;
+  height: 360px;
+  
+}
+#panel{
+  display: none;
+  text-align: left;
+ 
+}
+#panel b{
+  margin-left: 10px;
+ 
+}
+
+
+#panel img{
+  width: 80px;
+  height: 90px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.tag{
+  width: 35%;
+  height: 300px;
+  background-color: #fff;
+  float: right;
+border: 9px solid #e4dcc0;
+overflow: hidden;
+}
+.tag .ins{
+  width: 100%;
+  height: 65px;
+  background-color: #000;
+  color: #fff;
+  padding-top: 10px;
+}
+.tag .ins h4{
+  font-size: 25px;
+  font-weight: bold;
+ font-family: "Times New Roman", Times, serif;
+ margin-left: 10px;
+}
+.tag img{
+width: 40%;
+height: 80px;
+margin: 15px;
+
+
+}
+
+.tag2{
+  width: 35%;
+  height: 300px;
+  background-color:#fff;
+  float: right;
+  border: 9px solid #e4dcc0;
+}
+.tag2 .bmw{
+  width: 100%;
+  height: 65px;
+  background-color: #000;
+  padding: 10px;
+  color: #fff;
+  
+}
+.tag2 .bmw h4{
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+.tag2 .dfg{
+  width: 70px;
+  height: 20px;
+  background-color: #e8e0ca;
+  float: left;
+  margin: 10px 3px;
+  text-align: center;
+  border-radius: 3px;
+}
+.dfg:hover{
+  background-color: #000;
+  color: #e4c78a;
+}
+.www{
+  width: 35%;
+  height: 60px;
+  background-color: #ddd;
+}
+.Sub{
+  width: 100%;
+  height: 400px;
+  background-color:#e4dcc0;
+  
+ border:9px solid #e4dcc0;
+  
+  
+}
+.Sub .ahmed{
+  width: 95%;
+  height: 400px;
+  margin: auto;
+  background-color: #fbf6f6;
+  border:9px solid #e4dcc0;
+  text-align: center;
+  overflow: hidden;
+}
+.Sub .ahmed h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+.eee{
+  width: 150px;
+  height: 140px;
+  background-color: #f1f0ee;;
+  float: left;
+  margin-left: 47px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  color: #4a4444;
+  margin-bottom: 50px;
+}
+.eee i{
+  margin-top: 25%;
+}
+.eee:hover{
+  background-color: #000;
+  color:#e6d5a6;
+}
+ .ahmed h5{
+  font-weight: bold;
+
+ }
+                                      /*end.........................sub*/
+footer{
+  width:100%;
+  height: 300px;
+  background-color: #cecacb;
+  border-left: 45px solid #e4dcc0;
+  border-right: 45px solid #e4dcc0;
+}
+
+ 
+
+input[type=text] {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 10px 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+   background:none;
+}
+input[type=password] {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 10px 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background:none;
+   
+}
+ textarea {
+    width: 47%;
+    height: 100px;
+   padding-left: 20px;
+   border-radius: 6px;
+   background:none;
+   border: none;
+   border-bottom: 1px solid #000;
+}
+#subject{
+ text-align: center;
+}
+input[type=submit] {
+ width: 300px;
+ height: 40px;
+ margin-left: 100px;
+ margin-top: 15px;
+ border: 1px solid #e6d5a6;
+ background-color: #151313;
+ color: #e6d5a6;
+ font-size: 21px;
+ font-weight: bold;
+ border-radius: 10px;
+}
+footer h4{
+ float: right;
+ margin-right: 20px;
+ margin-top: 100px;
+ font-weight: bold;
+ font-size: 22px;
+ 
+ 
+}
